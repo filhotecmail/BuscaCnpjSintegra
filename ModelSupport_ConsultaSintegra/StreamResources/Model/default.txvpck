@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="07kplzf0z4t_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ConsultaSintegra:StreamResources.Model.TStreamResources">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:StreamResources.Model.TStreamResources.WebBrowser1" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ConsultaSintegra:StreamResources.Model.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:l_ast:src:ConsultaSintegra:StreamResources.Model.@unitclass.StreamResourcesHtml" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:StreamResources.Model.@unitclass.StreamResourcesHtml" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="cfzylc7r70dhzcfgn_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::41uayr0ydfdlezjfn_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra" />
+      <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.TAfterExecute" />
+      <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.TAfterLoadingStream" />
+      <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.iEstadosWebForm" />
+      <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.TEstadosWebForm" />
+      <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra" />
+      <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin" />
+    </reference>
+    <reference referencedUin="design:view:::safk824ymdi_v">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="design:view:::07kplzf0z4t_v" />
+    </reference>
+  </view>
+</nodeSet>

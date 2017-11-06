@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model name="ConsultaSintegra" id="ConsultaSintegra" language="delphi">
+  <Diagram name="default" id="ID=5" metaclass="Namespace Diagram" file="default.txvpck.html">
+    <Property name="defaultDiagram">true</Property>
+    <DiagramReference id="ID=592" element="ID=3" metaclass="Namespace">
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Color Area">Whole Shape</Property>
+      <DiagramReference id="ID=596" element="ID=7" metaclass="Class">
+        <Property name="Implements">AcbrConsultaSintegra.iAcbrConsultaSintegra</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Extends">System.Classes.TComponent</Property>
+        <Property name="Sealed">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=597" element="ID=8" metaclass="Delegate" />
+      <DiagramReference id="ID=598" element="ID=9" metaclass="Delegate" />
+      <DiagramReference id="ID=599" element="ID=10" metaclass="Interface">
+        <Property name="Persistent">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=600" element="ID=11" metaclass="Module" />
+      <DiagramReference id="ID=601" element="ID=12" metaclass="Class">
+        <Property name="Implements">AcbrConsultaSintegra.iEstadosWebForm</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Extends">System.TInterfacedObject</Property>
+        <Property name="Sealed">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=602" element="ID=13" metaclass="Interface">
+        <Property name="Persistent">False</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=603" element="ID=14" metaclass="Enum" />
+    </DiagramReference>
+    <DiagramReference id="ID=595" element="ID=4" metaclass="Namespace">
+      <Property name="Gradient color 1">255, 255, 255</Property>
+      <Property name="Gradient ON">False</Property>
+      <Property name="Gradient Mode">Vertical</Property>
+      <Property name="Gradient color 2">255, 255, 255</Property>
+      <Property name="Color Area">Whole Shape</Property>
+    </DiagramReference>
+  </Diagram>
+  <Package name="AcbrConsultaSintegra" id="ID=3">
+    <Diagram name="AcbrConsultaSintegra" id="ID=15" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+      <DiagramReference id="ID=16" element="ID=7" metaclass="Class">
+        <Property name="Implements">AcbrConsultaSintegra.iAcbrConsultaSintegra</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Extends">System.Classes.TComponent</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="bounds">10,10,281,1627</Property>
+        <DiagramReference id="ID=291" element="ID=137" metaclass="Implementation Link">
+          <Property name="Client">TacbrConsultaSintegra</Property>
+          <Property name="Supplier">iAcbrConsultaSintegra</Property>
+        </DiagramReference>
+        <DiagramReference id="ID=292" element="ID=154" metaclass="Association Link">
+          <Property name="Client">FAfterExecute</Property>
+          <Property name="Supplier">TAfterExecute</Property>
+          <Property name="Type">association</Property>
+          <Property name="Directed">False</Property>
+        </DiagramReference>
+        <DiagramReference id="ID=293" element="ID=156" metaclass="Association Link">
+          <Property name="Client">FAfterLoadingStream</Property>
+          <Property name="Supplier">TAfterLoadingStream</Property>
+          <Property name="Type">association</Property>
+          <Property name="Directed">False</Property>
+        </DiagramReference>
+        <DiagramReference id="ID=294" element="ID=164" metaclass="Association Link">
+          <Property name="Client">FEstadosWebForm</Property>
+          <Property name="Supplier">iEstadosWebForm</Property>
+          <Property name="Type">association</Property>
+          <Property name="Directed">False</Property>
+        </DiagramReference>
+        <DiagramReference id="ID=295" element="ID=173" metaclass="Association Link">
+          <Property name="Client">AfterLoadingStream</Property>
+          <Property name="Supplier">TAfterLoadingStream</Property>
+          <Property name="Type">association</Property>
+          <Property name="Directed">False</Property>
+        </DiagramReference>
+        <DiagramReference id="ID=296" element="ID=174" metaclass="Association Link">
+          <Property name="Client">AfterExecute</Property>
+          <Property name="Supplier">TAfterExecute</Property>
+          <Property name="Type">association</Property>
+          <Property name="Directed">False</Property>
+        </DiagramReference>
+      </DiagramReference>
+      <DiagramReference id="ID=17" element="ID=8" metaclass="Delegate">
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="bounds">300,1,396,37</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=18" element="ID=9" metaclass="Delegate">
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="bounds">300,56,437,92</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=19" element="ID=10" metaclass="Interface">
+        <Property name="Persistent">False</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Circle view">False</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="bounds">300,111,515,192</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=20" element="ID=11" metaclass="Module">
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+      </DiagramReference>
+      <DiagramReference id="ID=21" element="ID=12" metaclass="Class">
+        <Property name="Implements">AcbrConsultaSintegra.iEstadosWebForm</Property>
+        <Property name="Abstract">False</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Extends">System.TInterfacedObject</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Sealed">False</Property>
+        <Property name="bounds">300,211,505,369</Property>
+        <DiagramReference id="ID=355" element="ID=348" metaclass="Implementation Link">
+          <Property name="Client">TEstadosWebForm</Property>
+          <Property name="Supplier">iEstadosWebForm</Property>
+        </DiagramReference>
+      </DiagramReference>
+      <DiagramReference id="ID=22" element="ID=13" metaclass="Interface">
+        <Property name="Persistent">False</Property>
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Circle view">False</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="bounds">640,20,922,1018</Property>
+        <DiagramReference id="ID=504" element="ID=428" metaclass="Association Link">
+          <Property name="Client">AfterLoadingStream</Property>
+          <Property name="Supplier">TAfterLoadingStream</Property>
+          <Property name="Type">association</Property>
+          <Property name="Directed">False</Property>
+        </DiagramReference>
+        <DiagramReference id="ID=505" element="ID=429" metaclass="Association Link">
+          <Property name="Client">AfterExecute</Property>
+          <Property name="Supplier">TAfterExecute</Property>
+          <Property name="Type">association</Property>
+          <Property name="Directed">False</Property>
+        </DiagramReference>
+      </DiagramReference>
+      <DiagramReference id="ID=23" element="ID=14" metaclass="Enum">
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <Property name="bounds">560,80,629,420</Property>
+      </DiagramReference>
+    </Diagram>
+    <Classifier name="TAfterLoadingStream" id="ID=9" type="Delegate" isSubroutine="true" visibility="public">
+      <ReturnType id="ID=9" type="" isPrimitive="true" />
+      <Parameter elementName="sender" id="ID3=9_60165601" type="tobject" systemType="TObject" isPrimitive="false" />
+      <Uses>
+        <Use element="ID=385" type="method_return_type" />
+        <Use element="ID3=386_65344610" type="parameter_type" />
+        <Use element="ID=387" type="field_type" />
+        <Use element="ID=42" type="field_type" />
+        <Use element="ID=73" type="method_return_type" />
+        <Use element="ID3=74_28374239" type="parameter_type" />
+        <Use element="ID=107" type="field_type" />
+      </Uses>
+    </Classifier>
+    <Classifier name="TAfterExecute" id="ID=8" type="Delegate" isSubroutine="true" visibility="public">
+      <ReturnType id="ID=8" type="" isPrimitive="true" />
+      <Parameter elementName="sender" id="ID3=8_12174636" type="tobject" systemType="TObject" isPrimitive="false" />
+      <Uses>
+        <Use element="ID=388" type="method_return_type" />
+        <Use element="ID3=389_58422049" type="parameter_type" />
+        <Use element="ID=390" type="field_type" />
+        <Use element="ID=40" type="field_type" />
+        <Use element="ID3=65_40545941" type="parameter_type" />
+        <Use element="ID=66" type="method_return_type" />
+        <Use element="ID=109" type="field_type" />
+      </Uses>
+    </Classifier>
+    <Classifier name="iAcbrConsultaSintegra" id="ID=13" type="Interface" visibility="public">
+      <Property name="Persistent">False</Property>
+      <Field fieldType="Field" elementName="ImageCatchaOUtP" id="ID=369" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Cnpjinput" id="ID=370" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Captcha" id="ID=371" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="UfinInput" id="ID=372" type="Integer" systemType="Integer" isPrimitive="false" isProperty="true" visibility="public">
+        <Property name="Type">Integer</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Url_WebServicesInput" id="ID=373" type="String" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">String</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Cnpj_Imput" id="ID=374" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Cnpj" id="ID=378" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="RazaoSocial" id="ID=381" type="String" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">String</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Logadouro" id="ID=382" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="CaptchaStream" id="ID=384" type="TStream" systemType="TStream" isPrimitive="false" isProperty="true" visibility="public">
+        <Property name="Type">TStream</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="AfterLoadingStream" id="ID=387" typeref="ID=9" type="TAfterLoadingStream" isPrimitive="false" isProperty="true" visibility="public">
+        <Property name="Type">TAfterLoadingStream</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="AfterExecute" id="ID=390" typeref="ID=8" type="TAfterExecute" isPrimitive="false" isProperty="true" visibility="public">
+        <Property name="Type">TAfterExecute</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="InscricaoEstadual" id="ID=394" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Numero" id="ID=404" type="String" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">String</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Complemento" id="ID=405" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Bairro" id="ID=406" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Estado" id="ID=407" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Municipio" id="ID=408" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Cep" id="ID=409" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Uf" id="ID=410" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="AtividadeEconomica" id="ID=411" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Regime" id="ID=412" type="string" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="DataCredenciamento" id="ID=414" type="TDate" systemType="TDate" isPrimitive="false" isProperty="true" visibility="public">
+        <Property name="Type">TDate</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Indice" id="ID=416" type="String" isPrimitive="true" isProperty="true" visibility="public">
+        <Property name="Type">String</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Method id="ID=356" name="getcnpjPesquisar" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=356" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=357" name="setcnpjPesquisar" isSubroutine="true" visibility="public">
+        <Parameter elementName="Value" id="ID3=357_29959635" type="string" isPrimitive="true" />
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=357" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=358" name="getCaptchaInput" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=358" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=359" name="setCaptchaInput" isSubroutine="true" visibility="public">
+        <Parameter elementName="Value" id="ID3=359_10811398" type="string" isPrimitive="true" />
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=359" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=360" name="getTUFin" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">Integer</Property>
+        <ReturnType id="ID=360" type="Integer" systemType="Integer" isPrimitive="false" />
+      </Method>
+      <Method id="ID=361" name="getUrlWebServices" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">String</Property>
+        <ReturnType id="ID=361" type="String" isPrimitive="true" />
+      </Method>
+      <Method id="ID=362" name="setUrlWebServices" isSubroutine="true" visibility="public">
+        <Parameter elementName="Value" id="ID3=362_3308025" type="String" isPrimitive="true" />
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=362" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=363" name="setTUfin" isSubroutine="true" visibility="public">
+        <Parameter elementName="Value" id="ID3=363_66623444" type="Integer" systemType="Integer" isPrimitive="false" />
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=363" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=364" name="DownloadFile" visibility="public">
+        <Parameter elementName="Source" id="ID3=364_27789888" type="string" isPrimitive="true" />
+        <Parameter elementName="Dest" id="ID3=364_36388452" type="string" isPrimitive="true" />
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">Boolean</Property>
+        <ReturnType id="ID=364" type="Boolean" systemType="Boolean" isPrimitive="false" />
+      </Method>
+      <Method id="ID=365" name="GetImageCaptcha" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=365" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=366" name="SetImagemCaptcha" isSubroutine="true" visibility="public">
+        <Parameter elementName="Value" id="ID3=366_61783529" type="string" isPrimitive="true" />
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=366" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=367" name="getCnpj_Imput" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=367" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=368" name="setCnpj_Imput" isSubroutine="true" visibility="public">
+        <Parameter elementName="Value" id="ID3=368_38409975" type="string" isPrimitive="true" />
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=368" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=375" name="Execute" isSubroutine="true" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=375" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=376" name="getCnpjRetorno" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=376" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=377" name="setCnpjRetorno" isSubroutine="true" visibility="public">
+        <Parameter elementName="Value" id="ID3=377_14062795" type="string" isPrimitive="true" />
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=377" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=379" name="getRazao" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">String</Property>
+        <ReturnType id="ID=379" type="String" isPrimitive="true" />
+      </Method>
+      <Method id="ID=380" name="getLogadouro" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=380" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=383" name="getFCaptchaStream" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">TStream</Property>
+        <ReturnType id="ID=383" type="TStream" systemType="TStream" isPrimitive="false" />
+      </Method>
+      <Method id="ID=385" name="getTAfterLoadingStream" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">TAfterLoadingStream</Property>
+        <ReturnType id="ID=385" typeref="ID=9" type="TAfterLoadingStream" isPrimitive="false" />
+      </Method>
+      <Method id="ID=386" name="setTAfterLoadingStream" isSubroutine="true" visibility="public">
+        <Parameter elementName="Value" id="ID3=386_65344610" typeref="ID=9" type="TAfterLoadingStream" isPrimitive="false" />
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=386" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=388" name="getAfterExecute" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">TAfterExecute</Property>
+        <ReturnType id="ID=388" typeref="ID=8" type="TAfterExecute" isPrimitive="false" />
+      </Method>
+      <Method id="ID=389" name="setFAfterExecute" isSubroutine="true" visibility="public">
+        <Parameter elementName="Value" id="ID3=389_58422049" typeref="ID=8" type="TAfterExecute" isPrimitive="false" />
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=389" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=391" name="ReadImageCaptcha" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">TImage</Property>
+        <ReturnType id="ID=391" type="TImage" systemType="TImage" isPrimitive="false" />
+      </Method>
+      <Method id="ID=392" name="getInscricaoEstadual" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=392" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=393" name="setInscricaoEstadual" isSubroutine="true" visibility="public">
+        <Parameter elementName="Value" id="ID3=393_34565553" type="string" isPrimitive="true" />
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=393" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=395" name="getbairro" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=395" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=396" name="getComplemento" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=396" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=397" name="getEstado" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=397" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=398" name="getMunicipio" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=398" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=399" name="getNumero" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">String</Property>
+        <ReturnType id="ID=399" type="String" isPrimitive="true" />
+      </Method>
+      <Method id="ID=400" name="getCep" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=400" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=401" name="getUf" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=401" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=402" name="getFAtividade" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=402" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=403" name="getFRegime" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">string</Property>
+        <ReturnType id="ID=403" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=413" name="getFDataCredenciamento" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">TDate</Property>
+        <ReturnType id="ID=413" type="TDate" systemType="TDate" isPrimitive="false" />
+      </Method>
+      <Method id="ID=415" name="getIndiceOrigatoriedade" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">String</Property>
+        <ReturnType id="ID=415" type="String" isPrimitive="true" />
+      </Method>
+      <Method id="ID=417" name="AtualizaCatpcha" isSubroutine="true" visibility="public">
+        <Property name="Reintroduce">False</Property>
+        <ReturnType id="ID=417" type="" isPrimitive="true" />
+      </Method>
+      <Link targetName="AfterLoadingStream" id="ID=428" metaclass="Association Link" idref="ID=9">
+        <Property name="Client">AfterLoadingStream</Property>
+        <Property name="Supplier">TAfterLoadingStream</Property>
+        <Property name="Type">association</Property>
+        <Property name="Directed">False</Property>
+      </Link>
+      <Link targetName="AfterExecute" id="ID=429" metaclass="Association Link" idref="ID=8">
+        <Property name="Client">AfterExecute</Property>
+        <Property name="Supplier">TAfterExecute</Property>
+        <Property name="Type">association</Property>
+        <Property name="Directed">False</Property>
+      </Link>
+      <Uses />
+    </Classifier>
+    <Classifier name="iEstadosWebForm" id="ID=10" type="Interface" visibility="public">
+      <Property name="Persistent">False</Property>
+      <Uses>
+        <Use element="ID=50" type="field_type" />
+      </Uses>
+      <Method id="ID=335" name="VerificaWebFormEstados" visibility="public">
+        <Parameter elementName="aTwebBrowse" id="ID3=335_44410452" type="TWebBrowser" systemType="TWebBrowser" isPrimitive="false" />
+        <Parameter elementName="aUf" id="ID3=335_40476854" typeref="ID=14" type="TUFin" isPrimitive="false" />
+        <Parameter elementName="aImage" id="ID3=335_57399728" type="TImage" systemType="TImage" isPrimitive="false" />
+        <Parameter elementName="aCatpta_Imput" id="ID3=335_18866411" type="String" isPrimitive="true" />
+        <Parameter elementName="aCnpj_Imput" id="ID3=335_51784335" type="String" isPrimitive="true" />
+        <Property name="Reintroduce">False</Property>
+        <Property name="Returns">Boolean</Property>
+        <ReturnType id="ID=335" type="Boolean" systemType="Boolean" isPrimitive="false" />
+      </Method>
+    </Classifier>
+    <Classifier name="TacbrConsultaSintegra" id="ID=7" type="Class" visibility="public">
+      <Property name="Implements">AcbrConsultaSintegra.iAcbrConsultaSintegra</Property>
+      <Property name="Abstract">False</Property>
+      <Property name="Persistent">False</Property>
+      <Property name="Extends">System.Classes.TComponent</Property>
+      <Property name="Sealed">False</Property>
+      <Field fieldType="Field" elementName="Url_WebServices" id="ID=92" type="String" isPrimitive="true" isProperty="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Type">String</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Captcha" id="ID=93" type="string" isPrimitive="true" isProperty="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="CaptchaStream" id="ID=96" type="TStream" systemType="TStream" isPrimitive="false" isProperty="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Type">TStream</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Cnpjinput" id="ID=97" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Ufin" id="ID=98" type="Integer" systemType="Integer" isPrimitive="false" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">Integer</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="ImageCatchaOUtP" id="ID=99" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Cnpj_Imput" id="ID=102" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Cnpj" id="ID=103" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="AfterLoadingStream" id="ID=107" typeref="ID=9" type="TAfterLoadingStream" isPrimitive="false" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">TAfterLoadingStream</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="AfterExecute" id="ID=109" typeref="ID=8" type="TAfterExecute" isPrimitive="false" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">TAfterExecute</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="RazaoSocial" id="ID=110" type="String" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">String</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Logadouro" id="ID=111" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="InscricaoEstadual" id="ID=112" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Numero" id="ID=113" type="String" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">String</Property>
+        <Property name="Access">read/write</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Complemento" id="ID=114" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Bairro" id="ID=115" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Estado" id="ID=116" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Municipio" id="ID=117" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Cep" id="ID=118" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="AtividadeEconomica" id="ID=119" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Uf" id="ID=120" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Regime" id="ID=121" type="string" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">string</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="DataCredenciamento" id="ID=122" type="TDate" systemType="TDate" isPrimitive="false" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">TDate</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Indice" id="ID=123" type="String" isPrimitive="true" isProperty="true" visibility="published">
+        <Property name="Class">False</Property>
+        <Property name="Type">String</Property>
+        <Property name="Access">read</Property>
+      </Field>
+      <Method id="ID=51" name="getcnpjPesquisar" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=51" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=52" name="setcnpjPesquisar" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=52_64921002" type="string" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=52" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=53" name="getCaptchaInput" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=53" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=54" name="setCaptchaInput" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=54_24109790" type="string" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=54" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=55" name="getTUFin" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">Integer</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=55" type="Integer" systemType="Integer" isPrimitive="false" />
+      </Method>
+      <Method id="ID=56" name="getUrlWebServices" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">String</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=56" type="String" isPrimitive="true" />
+      </Method>
+      <Method id="ID=57" name="setUrlWebServices" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=57_6735967" type="String" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=57" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=58" name="setTUfin" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=58_8742420" type="Integer" systemType="Integer" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=58" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=59" name="GetImageCaptcha" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=59" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=60" name="SetImagemCaptcha" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=60_37047397" type="string" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=60" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=61" name="getCnpj_Imput" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=61" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=62" name="setCnpj_Imput" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=62_48049212" type="string" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=62" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=63" name="getCnpjRetorno" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=63" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=64" name="setCnpjRetorno" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=64_66780926" type="string" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=64" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=65" name="setFAfterExecute" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=65_40545941" typeref="ID=8" type="TAfterExecute" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=65" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=66" name="getAfterExecute" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">TAfterExecute</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=66" typeref="ID=8" type="TAfterExecute" isPrimitive="false" />
+      </Method>
+      <Method id="ID=67" name="getRazao" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">String</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=67" type="String" isPrimitive="true" />
+      </Method>
+      <Method id="ID=68" name="SetRazao" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=68_62995817" type="String" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=68" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=69" name="getLogadouro" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=69" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=70" name="setLogadouro" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=70_2387553" type="string" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=70" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=71" name="getFCaptchaStream" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">TStream</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=71" type="TStream" systemType="TStream" isPrimitive="false" />
+      </Method>
+      <Method id="ID=72" name="setFCaptchaStream" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=72_59174118" type="TStream" systemType="TStream" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=72" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=73" name="getTAfterLoadingStream" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">TAfterLoadingStream</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=73" typeref="ID=9" type="TAfterLoadingStream" isPrimitive="false" />
+      </Method>
+      <Method id="ID=74" name="setTAfterLoadingStream" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=74_28374239" typeref="ID=9" type="TAfterLoadingStream" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=74" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=75" name="ReadImageCaptcha" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">TImage</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=75" type="TImage" systemType="TImage" isPrimitive="false" />
+      </Method>
+      <Method id="ID=76" name="getInscricaoEstadual" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=76" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=77" name="setInscricaoEstadual" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=77_16612021" type="string" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=77" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=78" name="getbairro" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=78" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=79" name="getComplemento" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=79" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=80" name="getEstado" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=80" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=81" name="getMunicipio" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=81" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=82" name="getNumero" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">String</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=82" type="String" isPrimitive="true" />
+      </Method>
+      <Method id="ID=83" name="getCep" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=83" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=84" name="setNumero" isSubroutine="true" visibility="internal">
+        <Parameter elementName="Value" id="ID3=84_3396431" type="String" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=84" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=85" name="getFAtividade" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=85" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=86" name="getUf" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=86" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=87" name="getFRegime" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">string</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=87" type="string" isPrimitive="true" />
+      </Method>
+      <Method id="ID=88" name="getFDataCredenciamento" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">TDate</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=88" type="TDate" systemType="TDate" isPrimitive="false" />
+      </Method>
+      <Method id="ID=89" name="getIndiceOrigatoriedade" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">String</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=89" type="String" isPrimitive="true" />
+      </Method>
+      <Method id="ID=90" name="RetornaEstadobyUf" visibility="internal">
+        <Parameter elementName="aUf" id="ID3=90_6675477" type="String" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">String</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=90" type="String" isPrimitive="true" />
+      </Method>
+      <Method id="ID=91" name="CarregaDocumentHtml" isSubroutine="true" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=91" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=94" name="ReaderonTagsFromWebDocument" isSubroutine="true" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=94" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=95" name="ReaderTagsFromHtmlDcument" isSubroutine="true" visibility="internal">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=95" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=100" name="DonwLoadCompleted" isSubroutine="true" visibility="published">
+        <Parameter elementName="sender" id="ID3=100_3842801" type="tobject" systemType="TObject" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=100" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=101" name="DownloadFile" visibility="published">
+        <Parameter elementName="Source" id="ID3=101_42831432" type="string" isPrimitive="true" />
+        <Parameter elementName="Dest" id="ID3=101_46793988" type="string" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">Boolean</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=101" type="Boolean" systemType="Boolean" isPrimitive="false" />
+      </Method>
+      <Method id="ID=104" name="Execute" isSubroutine="true" visibility="published">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=104" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=105" name="DocumentComplete" isSubroutine="true" visibility="published">
+        <Parameter elementName="ASender" id="ID3=105_32216717" type="tobject" systemType="TObject" isPrimitive="false" />
+        <Parameter elementName="pDisp" id="ID3=105_64993568" type="IDispatch" systemType="IDispatch" isPrimitive="false" />
+        <Parameter elementName="URL" id="ID3=105_1453442" type="OleVariant" systemType="OleVariant" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=105" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=106" name="onAfterLoadingStream" isSubroutine="true" visibility="published">
+        <Parameter elementName="sender" id="ID3=106_50619981" type="tobject" systemType="TObject" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=106" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=108" name="OnAfterExecute" isSubroutine="true" visibility="published">
+        <Parameter elementName="sender" id="ID3=108_6577772" type="tobject" systemType="TObject" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=108" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=124" name="AtualizaCatpcha" isSubroutine="true" visibility="published">
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=124" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=125" name="Create" isConstructor="true" visibility="public">
+        <Parameter elementName="AOwner" id="ID3=125_30466696" type="TComponent" systemType="TComponent" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Override">True</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Virtual">False</Property>
+      </Method>
+      <Link targetName="AcbrConsultaSintegra.iAcbrConsultaSintegra" id="ID=137" metaclass="Implementation Link" idref="ID=13">
+        <Property name="Client">TacbrConsultaSintegra</Property>
+        <Property name="Supplier">iAcbrConsultaSintegra</Property>
+      </Link>
+      <Link targetName="FAfterExecute" id="ID=154" metaclass="Association Link" idref="ID=8">
+        <Property name="Client">FAfterExecute</Property>
+        <Property name="Supplier">TAfterExecute</Property>
+        <Property name="Type">association</Property>
+        <Property name="Directed">False</Property>
+      </Link>
+      <Link targetName="FAfterLoadingStream" id="ID=156" metaclass="Association Link" idref="ID=9">
+        <Property name="Client">FAfterLoadingStream</Property>
+        <Property name="Supplier">TAfterLoadingStream</Property>
+        <Property name="Type">association</Property>
+        <Property name="Directed">False</Property>
+      </Link>
+      <Link targetName="FEstadosWebForm" id="ID=164" metaclass="Association Link" idref="ID=10">
+        <Property name="Client">FEstadosWebForm</Property>
+        <Property name="Supplier">iEstadosWebForm</Property>
+        <Property name="Type">association</Property>
+        <Property name="Directed">False</Property>
+      </Link>
+      <Link targetName="AfterLoadingStream" id="ID=173" metaclass="Association Link" idref="ID=9">
+        <Property name="Client">AfterLoadingStream</Property>
+        <Property name="Supplier">TAfterLoadingStream</Property>
+        <Property name="Type">association</Property>
+        <Property name="Directed">False</Property>
+      </Link>
+      <Link targetName="AfterExecute" id="ID=174" metaclass="Association Link" idref="ID=8">
+        <Property name="Client">AfterExecute</Property>
+        <Property name="Supplier">TAfterExecute</Property>
+        <Property name="Type">association</Property>
+        <Property name="Directed">False</Property>
+      </Link>
+      <Extends idref="ID=128" refFN="System.Classes.TComponent" doom="true" />
+      <Implements idref="ID=13" refFN="AcbrConsultaSintegra.iAcbrConsultaSintegra" />
+      <Uses />
+      <Field fieldType="Field" elementName="FUrlWebServices" id="ID=24" type="String" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">String</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FTUFin" id="ID=25" type="Integer" systemType="Integer" isPrimitive="false" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">Integer</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FCaptchaInput" id="ID=26" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FcnpjPesquisarinput" id="ID=27" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FImageCaptcha" id="ID=28" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FCnpj_Imput" id="ID=29" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Fnpj_out" id="ID=30" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FIe_Out" id="ID=31" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FNome" id="ID=32" type="String" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">String</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FEndereco" id="ID=33" type="String" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">String</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FNumero" id="ID=34" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FComp" id="ID=35" type="String" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">String</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FBairro" id="ID=36" type="String" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">String</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FCidade" id="ID=37" type="String" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">String</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FCep" id="ID=38" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FReaderTagsNow" id="ID=39" type="Boolean" systemType="Boolean" isPrimitive="false" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">Boolean</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FAfterExecute" id="ID=40" typeref="ID=8" type="TAfterExecute" isPrimitive="false" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">TAfterExecute</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FCaptchaStream" id="ID=41" type="TStream" systemType="TStream" isPrimitive="false" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">TStream</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FAfterLoadingStream" id="ID=42" typeref="ID=9" type="TAfterLoadingStream" isPrimitive="false" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">TAfterLoadingStream</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FImageConvCapctha" id="ID=43" type="TImage" systemType="TImage" isPrimitive="false" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">TImage</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FAtividade" id="ID=44" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="Fuf" id="ID=45" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FEstado" id="ID=46" type="String" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">String</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FRegime" id="ID=47" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FDataCredenciamento" id="ID=48" type="TDate" systemType="TDate" isPrimitive="false" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">TDate</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FIndice" id="ID=49" type="string" isPrimitive="true" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">string</Property>
+      </Field>
+      <Field fieldType="Field" elementName="FEstadosWebForm" id="ID=50" typeref="ID=10" type="iEstadosWebForm" isPrimitive="false" visibility="internal">
+        <Property name="Class">False</Property>
+        <Property name="Const">False</Property>
+        <Property name="Type">iEstadosWebForm</Property>
+      </Field>
+    </Classifier>
+    <Classifier name="globals AcbrConsultaSintegra" id="ID=11" type="Module" visibility="public">
+      <Uses />
+      <Field fieldType="Field" elementName="URL_Sintegra" id="ID=337" DefaultValue="('http://sefaznet.ac.gov.br/sefazonline/servlet/sintegraconsulta',&#xD;&#xA;    'http://www.sefaz.al.gov.br/asp/sintegra/sintegra.asp?estado=AL',&#xD;&#xA;    'http://www.sintegra.ap.gov.br/',&#xD;&#xA;    'http://www.sefaz.am.gov.br/sintegra/sintegra0.asp',&#xD;&#xA;    'http://www.sefaz.ba.gov.br/Sintegra/sintegra.asp?estado=BA',&#xD;&#xA;    'http://www.sefaz.ce.gov.br/Sintegra/Sintegra.Asp?estado=CE',&#xD;&#xA;    'http://www.fazenda.df.gov.br/area.cfm?id_area=110',&#xD;&#xA;    'http://www.sintegra.es.gov.br/',&#xD;&#xA;    'http://www.sefaz.go.gov.br/sintegra/sintegra.asp',&#xD;&#xA;    'http://sistemas.sefaz.ma.gov.br/sintegra/jsp/consultaSintegra/consultaSintegraFiltro.jsf',&#xD;&#xA;    'http://www.sefaz.mt.gov.br/sid/consulta/infocadastral/consultar/publica',&#xD;&#xA;    'https://servicos.efazenda.ms.gov.br/consultacci',&#xD;&#xA;    'http://consultasintegra.fazenda.mg.gov.br/sintegra/',&#xD;&#xA;    'https://app.sefa.pa.gov.br/Sintegra/',&#xD;&#xA;    'http://sintegra.receita.pb.gov.br/sintegra/sintegra.asp?estado=pb',&#xD;&#xA;    'http://www.sintegra.fazenda.pr.gov.br/sintegra/',&#xD;&#xA;    'http://www.sintegra.sefaz.pe.gov.br/',&#xD;&#xA;    'http://web.sintegra.sefaz.pi.gov.br/',&#xD;&#xA;    'http://www.fazenda.rj.gov.br/projetoCPS',&#xD;&#xA;    'http://ww3.set.rn.gov.br/sintegra',&#xD;&#xA;    'http://www.sefaz.rs.gov.br/asp/SEF_root/inf/sintegra_entrada.asp',&#xD;&#xA;    'http://www.sefin.ro.gov.br/sint_consul.asp',&#xD;&#xA;    'http://www.sefaz.rr.gov.br/servicos/sintegra/sintegra.asp',&#xD;&#xA;    'http://sistemas.sef.sc.gov.br/sintegra',&#xD;&#xA;    'http://pfeserv1.fazenda.sp.gov.br/sintegrapfe/consultaSintegraServlet',&#xD;&#xA;    'http://www.sefaz.se.gov.br/sintegra')" type="array [0 .. 25] of String" systemType="string" isPrimitive="false" visibility="internal">
+        <Property name="Const">True</Property>
+        <Property name="Initial">('http://sefaznet.ac.gov.br/sefazonline/servlet/sintegraconsulta',&lt;br /&gt;    'http://www.sefaz.al.gov.br/asp/sintegra/sintegra.asp?estado=AL',&lt;br /&gt;    'http://www.sintegra.ap.gov.br/',&lt;br /&gt;    'http://www.sefaz.am.gov.br/sintegra/sintegra0.asp',&lt;br /&gt;    'http://www.sefaz.ba.gov.br/Sintegra/sintegra.asp?estado=BA',&lt;br /&gt;    'http://www.sefaz.ce.gov.br/Sintegra/Sintegra.Asp?estado=CE',&lt;br /&gt;    'http://www.fazenda.df.gov.br/area.cfm?id_area=110',&lt;br /&gt;    'http://www.sintegra.es.gov.br/',&lt;br /&gt;    'http://www.sefaz.go.gov.br/sintegra/sintegra.asp',&lt;br /&gt;    'http://sistemas.sefaz.ma.gov.br/sintegra/jsp/consultaSintegra/consultaSintegraFiltro.jsf',&lt;br /&gt;    'http://www.sefaz.mt.gov.br/sid/consulta/infocadastral/consultar/publica',&lt;br /&gt;    'https://servicos.efazenda.ms.gov.br/consultacci',&lt;br /&gt;    'http://consultasintegra.fazenda.mg.gov.br/sintegra/',&lt;br /&gt;    'https://app.sefa.pa.gov.br/Sintegra/',&lt;br /&gt;    'http://sintegra.receita.pb.gov.br/sintegra/sintegra.asp?estado=pb',&lt;br /&gt;    'http://www.sintegra.fazenda.pr.gov.br/sintegra/',&lt;br /&gt;    'http://www.sintegra.sefaz.pe.gov.br/',&lt;br /&gt;    'http://web.sintegra.sefaz.pi.gov.br/',&lt;br /&gt;    'http://www.fazenda.rj.gov.br/projetoCPS',&lt;br /&gt;    'http://ww3.set.rn.gov.br/sintegra',&lt;br /&gt;    'http://www.sefaz.rs.gov.br/asp/SEF_root/inf/sintegra_entrada.asp',&lt;br /&gt;    'http://www.sefin.ro.gov.br/sint_consul.asp',&lt;br /&gt;    'http://www.sefaz.rr.gov.br/servicos/sintegra/sintegra.asp',&lt;br /&gt;    'http://sistemas.sef.sc.gov.br/sintegra',&lt;br /&gt;    'http://pfeserv1.fazenda.sp.gov.br/sintegrapfe/consultaSintegraServlet',&lt;br /&gt;    'http://www.sefaz.se.gov.br/sintegra')</Property>
+        <Property name="Type">array [0 .. 25] of String</Property>
+      </Field>
+      <Method id="ID=338" name="Register" isSubroutine="true" visibility="public">
+        <ReturnType id="ID=338" type="" isPrimitive="true" />
+      </Method>
+    </Classifier>
+    <Classifier name="TEstadosWebForm" id="ID=12" type="Class" visibility="public">
+      <Property name="Implements">AcbrConsultaSintegra.iEstadosWebForm</Property>
+      <Property name="Abstract">False</Property>
+      <Property name="Persistent">False</Property>
+      <Property name="Extends">System.TInterfacedObject</Property>
+      <Property name="Sealed">False</Property>
+      <Method id="ID=342" name="WebFormSetFieldValue" isSubroutine="true" visibility="internal">
+        <Parameter elementName="document" id="ID3=342_29998725" type="IHTMLDocument2" systemType="IHTMLDocument2" isPrimitive="false" />
+        <Parameter elementName="formNumber" id="ID3=342_13977680" type="integer" systemType="Integer" isPrimitive="false" />
+        <Parameter elementName="fieldName" id="ID3=342_58450308" type="string" isPrimitive="true" />
+        <Parameter elementName="newValue" id="ID3=342_36854471" type="string" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=342" type="" isPrimitive="true" />
+      </Method>
+      <Method id="ID=343" name="WebFormNames" visibility="internal">
+        <Parameter elementName="document" id="ID3=343_23364455" type="IHTMLDocument2" systemType="IHTMLDocument2" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">TStringList</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=343" type="TStringList" systemType="TStringList" isPrimitive="false" />
+      </Method>
+      <Method id="ID=344" name="VerificaWebFormEstados" visibility="internal">
+        <Parameter elementName="aTwebBrowse" id="ID3=344_13472683" type="TWebBrowser" systemType="TWebBrowser" isPrimitive="false" />
+        <Parameter elementName="aUf" id="ID3=344_17545532" typeref="ID=14" type="TUFin" isPrimitive="false" />
+        <Parameter elementName="aImage" id="ID3=344_11901953" type="TImage" systemType="TImage" isPrimitive="false" />
+        <Parameter elementName="aCatpta_Imput" id="ID3=344_24534114" type="String" isPrimitive="true" />
+        <Parameter elementName="aCnpj_Imput" id="ID3=344_41106249" type="String" isPrimitive="true" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">Boolean</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=344" type="Boolean" systemType="Boolean" isPrimitive="false" />
+      </Method>
+      <Method id="ID=345" name="WebFormGet" visibility="internal">
+        <Parameter elementName="formNumber" id="ID3=345_35902201" type="integer" systemType="Integer" isPrimitive="false" />
+        <Parameter elementName="document" id="ID3=345_22397145" type="IHTMLDocument2" systemType="IHTMLDocument2" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Returns">IHTMLFormElement</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=345" type="IHTMLFormElement" systemType="IHTMLFormElement" isPrimitive="false" />
+      </Method>
+      <Method id="ID=346" name="WebFormSubmit" isSubroutine="true" visibility="internal">
+        <Parameter elementName="document" id="ID3=346_2229466" type="IHTMLDocument2" systemType="IHTMLDocument2" isPrimitive="false" />
+        <Parameter elementName="formNumber" id="ID3=346_46369059" type="integer" systemType="Integer" isPrimitive="false" />
+        <Property name="Abstract">False</Property>
+        <Property name="Final">False</Property>
+        <Property name="Reintroduce">False</Property>
+        <Property name="Class">False</Property>
+        <Property name="Override">False</Property>
+        <Property name="Virtual">False</Property>
+        <ReturnType id="ID=346" type="" isPrimitive="true" />
+      </Method>
+      <Link targetName="AcbrConsultaSintegra.iEstadosWebForm" id="ID=348" metaclass="Implementation Link" idref="ID=10">
+        <Property name="Client">TEstadosWebForm</Property>
+        <Property name="Supplier">iEstadosWebForm</Property>
+      </Link>
+      <Extends idref="ID=347" refFN="System.TInterfacedObject" doom="true" />
+      <Implements idref="ID=10" refFN="AcbrConsultaSintegra.iEstadosWebForm" />
+      <Uses />
+    </Classifier>
+    <Classifier name="TUFin" id="ID=14" type="Enum" visibility="public">
+      <Uses>
+        <Use element="ID3=335_40476854" type="parameter_type" />
+        <Use element="ID3=344_17545532" type="parameter_type" />
+        <Use element="ID=540" type="field_type" />
+        <Use element="ID=541" type="field_type" />
+        <Use element="ID=542" type="field_type" />
+        <Use element="ID=543" type="field_type" />
+        <Use element="ID=544" type="field_type" />
+        <Use element="ID=545" type="field_type" />
+        <Use element="ID=546" type="field_type" />
+        <Use element="ID=547" type="field_type" />
+        <Use element="ID=548" type="field_type" />
+        <Use element="ID=549" type="field_type" />
+        <Use element="ID=550" type="field_type" />
+        <Use element="ID=551" type="field_type" />
+        <Use element="ID=552" type="field_type" />
+        <Use element="ID=553" type="field_type" />
+        <Use element="ID=554" type="field_type" />
+        <Use element="ID=555" type="field_type" />
+        <Use element="ID=556" type="field_type" />
+        <Use element="ID=557" type="field_type" />
+        <Use element="ID=558" type="field_type" />
+        <Use element="ID=559" type="field_type" />
+        <Use element="ID=560" type="field_type" />
+        <Use element="ID=561" type="field_type" />
+        <Use element="ID=562" type="field_type" />
+        <Use element="ID=563" type="field_type" />
+        <Use element="ID=564" type="field_type" />
+        <Use element="ID=565" type="field_type" />
+      </Uses>
+      <Field fieldType="Field" elementName="AC" id="ID=540" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="AL" id="ID=541" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="AP" id="ID=542" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="AM" id="ID=543" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="BA" id="ID=544" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="CE" id="ID=545" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="DF" id="ID=546" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="ES" id="ID=547" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="GO" id="ID=548" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="MA" id="ID=549" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="MT" id="ID=550" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="MS" id="ID=551" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="MG" id="ID=552" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="PA" id="ID=553" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="PB" id="ID=554" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="PR" id="ID=555" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="PE" id="ID=556" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="PI" id="ID=557" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="RJ" id="ID=558" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="RN" id="ID=559" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="RS" id="ID=560" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="RO" id="ID=561" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="RR" id="ID=562" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="SC" id="ID=563" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="SP" id="ID=564" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+      <Field fieldType="Field" elementName="SE" id="ID=565" typeref="ID=14" isPrimitive="false" type="Enumeration Value" visibility="public" />
+    </Classifier>
+  </Package>
+  <Package name="StreamResources" id="ID=4">
+    <Diagram name="StreamResources" id="ID=594" metaclass="Namespace Diagram" file="default.txvpck.html">
+      <Property name="defaultDiagram">true</Property>
+      <DiagramReference id="ID=617" element="ID=593" metaclass="Namespace">
+        <Property name="Gradient color 1">255, 255, 255</Property>
+        <Property name="Gradient ON">False</Property>
+        <Property name="Gradient Mode">Vertical</Property>
+        <Property name="Gradient color 2">255, 255, 255</Property>
+        <Property name="Color Area">Whole Shape</Property>
+        <DiagramReference id="ID=618" element="ID=604" metaclass="Class">
+          <Property name="Abstract">False</Property>
+          <Property name="Persistent">False</Property>
+          <Property name="Extends">Vcl.Forms.TForm</Property>
+          <Property name="Sealed">False</Property>
+        </DiagramReference>
+        <DiagramReference id="ID=619" element="ID=605" metaclass="Module" />
+      </DiagramReference>
+    </Diagram>
+    <Package name="Model" id="ID=593">
+      <Diagram name="Model" id="ID=606" metaclass="Namespace Diagram" file="default.txvpck.html">
+        <Property name="defaultDiagram">true</Property>
+        <DiagramReference id="ID=627" element="ID=604" metaclass="Class">
+          <Property name="Abstract">False</Property>
+          <Property name="Persistent">False</Property>
+          <Property name="Gradient color 1">255, 255, 255</Property>
+          <Property name="Extends">Vcl.Forms.TForm</Property>
+          <Property name="Gradient Mode">Vertical</Property>
+          <Property name="Gradient ON">False</Property>
+          <Property name="Gradient color 2">255, 255, 255</Property>
+          <Property name="Color Area">Whole Shape</Property>
+          <Property name="Sealed">False</Property>
+        </DiagramReference>
+        <DiagramReference id="ID=628" element="ID=605" metaclass="Module">
+          <Property name="Gradient color 1">255, 255, 255</Property>
+          <Property name="Gradient ON">False</Property>
+          <Property name="Gradient color 2">255, 255, 255</Property>
+          <Property name="Color Area">Whole Shape</Property>
+          <Property name="Gradient Mode">Vertical</Property>
+          <DiagramReference id="ID=631" element="ID=626" metaclass="Association Link">
+            <Property name="Client">StreamResourcesHtml</Property>
+            <Property name="Supplier">TStreamResources</Property>
+            <Property name="Type">association</Property>
+            <Property name="Directed">False</Property>
+          </DiagramReference>
+        </DiagramReference>
+      </Diagram>
+      <Classifier name="TStreamResources" id="ID=604" type="Class" visibility="public">
+        <Property name="Abstract">False</Property>
+        <Property name="Persistent">False</Property>
+        <Property name="Extends">Vcl.Forms.TForm</Property>
+        <Property name="Sealed">False</Property>
+        <Extends idref="ID=622" refFN="Vcl.Forms.TForm" doom="true" />
+        <Uses>
+          <Use element="ID=625" type="field_type" />
+        </Uses>
+        <Field fieldType="Field" elementName="WebBrowser1" id="ID=620" type="TWebBrowser" systemType="TWebBrowser" isPrimitive="false" visibility="public">
+          <Property name="Class">False</Property>
+          <Property name="Const">False</Property>
+          <Property name="Type">TWebBrowser</Property>
+        </Field>
+      </Classifier>
+      <Classifier name="globals Model" id="ID=605" type="Module" visibility="public">
+        <Link targetName="StreamResourcesHtml" id="ID=626" metaclass="Association Link" idref="ID=604">
+          <Property name="Client">StreamResourcesHtml</Property>
+          <Property name="Supplier">TStreamResources</Property>
+          <Property name="Type">association</Property>
+          <Property name="Directed">False</Property>
+        </Link>
+        <Uses />
+        <Field fieldType="Field" elementName="StreamResourcesHtml" id="ID=625" typeref="ID=604" type="TStreamResources" isPrimitive="false" visibility="internal">
+          <Property name="Const">False</Property>
+          <Property name="Type">TStreamResources</Property>
+        </Field>
+      </Classifier>
+    </Package>
+  </Package>
+</Model>

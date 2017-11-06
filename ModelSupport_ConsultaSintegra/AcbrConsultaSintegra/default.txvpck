@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="41uayr0ydfdlezjfn_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,271,1617" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FUrlWebServices" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FTUFin" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FCaptchaInput" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FcnpjPesquisarinput" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FImageCaptcha" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FCnpj_Imput" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Fnpj_out" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FIe_Out" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FNome" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FEndereco" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FNumero" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FComp" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FBairro" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FCidade" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FCep" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FReaderTagsNow" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FAfterExecute" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FCaptchaStream" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FAfterLoadingStream" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FImageConvCapctha" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FAtividade" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Fuf" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FEstado" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FRegime" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FDataCredenciamento" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FIndice" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FEstadosWebForm" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getcnpjPesquisar()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setcnpjPesquisar(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getCaptchaInput()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setCaptchaInput(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getTUFin()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getUrlWebServices()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setUrlWebServices(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setTUfin(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.GetImageCaptcha()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.SetImagemCaptcha(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getCnpj_Imput()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setCnpj_Imput(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getCnpjRetorno()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setCnpjRetorno(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setFAfterExecute(AcbrConsultaSintegra.TAfterExecute)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getAfterExecute()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getRazao()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.SetRazao(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getLogadouro()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setLogadouro(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getFCaptchaStream()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setFCaptchaStream(System.Classes.TStream)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getTAfterLoadingStream()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setTAfterLoadingStream(AcbrConsultaSintegra.TAfterLoadingStream)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.ReadImageCaptcha()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getInscricaoEstadual()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setInscricaoEstadual(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getbairro()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getComplemento()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getEstado()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getMunicipio()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getNumero()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getCep()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.setNumero(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getFAtividade()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getUf()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getFRegime()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getFDataCredenciamento()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.getIndiceOrigatoriedade()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.RetornaEstadobyUf(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.CarregaDocumentHtml()" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Url_WebServices" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Captcha" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.ReaderonTagsFromWebDocument()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.ReaderTagsFromHtmlDcument()" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.CaptchaStream" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Cnpjinput" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Ufin" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.ImageCatchaOUtP" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.DonwLoadCompleted(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.DownloadFile(System.string,System.string)" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Cnpj_Imput" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Cnpj" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Execute()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.DocumentComplete(System.TObject,System.IDispatch,System.OleVariant)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.onAfterLoadingStream(System.TObject)" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.AfterLoadingStream" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.OnAfterExecute(System.TObject)" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.AfterExecute" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.RazaoSocial" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Logadouro" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.InscricaoEstadual" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Numero" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Complemento" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Bairro" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Estado" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Municipio" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Cep" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.AtividadeEconomica" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Uf" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Regime" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.DataCredenciamento" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Indice" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.AtualizaCatpcha()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.Create(System.Classes.TComponent)" />
+      <reference referencedUin="delphi:l_impl:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra">
+        <property name="sourceAnchor" value="281,519" />
+        <property name="targetAnchor" value="640,519" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FAfterExecute">
+        <property name="sourceAnchor" value="281,23" />
+        <property name="targetAnchor" value="300,23" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FAfterLoadingStream">
+        <property name="sourceAnchor" value="281,74" />
+        <property name="targetAnchor" value="300,74" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.FEstadosWebForm">
+        <property name="sourceAnchor" value="281,151" />
+        <property name="targetAnchor" value="300,151" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.AfterLoadingStream">
+        <property name="sourceAnchor" value="281,66" />
+        <property name="targetAnchor" value="300,66" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ConsultaSintegra:AcbrConsultaSintegra.TacbrConsultaSintegra.AfterExecute">
+        <property name="sourceAnchor" value="281,15" />
+        <property name="targetAnchor" value="300,15" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.TAfterExecute">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,1,96,36" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.TAfterLoadingStream">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,56,137,36" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.iEstadosWebForm">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,111,215,81" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iEstadosWebForm.VerificaWebFormEstados(SHDocVw.TWebBrowser,AcbrConsultaSintegra.TUFin,Vcl.ExtCtrls.TImage,System.string,System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.@unitclass.URL_Sintegra" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.@unitclass.Register()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.TEstadosWebForm">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="300,211,205,158" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TEstadosWebForm.WebFormSetFieldValue(MSHTML.IHTMLDocument2,System.Integer,System.string,System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TEstadosWebForm.WebFormNames(MSHTML.IHTMLDocument2)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TEstadosWebForm.VerificaWebFormEstados(SHDocVw.TWebBrowser,AcbrConsultaSintegra.TUFin,Vcl.ExtCtrls.TImage,System.string,System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TEstadosWebForm.WebFormGet(System.Integer,MSHTML.IHTMLDocument2)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.TEstadosWebForm.WebFormSubmit(MSHTML.IHTMLDocument2,System.Integer)" />
+      <reference referencedUin="delphi:l_impl:src:ConsultaSintegra:AcbrConsultaSintegra.TEstadosWebForm:AcbrConsultaSintegra.iEstadosWebForm">
+        <property name="sourceAnchor" value="402,211" />
+        <property name="targetAnchor" value="402,192" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="640,20,282,998" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getcnpjPesquisar()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.setcnpjPesquisar(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getCaptchaInput()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.setCaptchaInput(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getTUFin()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getUrlWebServices()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.setUrlWebServices(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.setTUfin(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.DownloadFile(System.string,System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.GetImageCaptcha()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.SetImagemCaptcha(System.string)" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getCnpj_Imput()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.setCnpj_Imput(System.string)" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.ImageCatchaOUtP" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Cnpjinput" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Captcha" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.UfinInput" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Url_WebServicesInput" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Cnpj_Imput" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Execute()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getCnpjRetorno()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.setCnpjRetorno(System.string)" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Cnpj" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getRazao()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getLogadouro()" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.RazaoSocial" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Logadouro" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getFCaptchaStream()" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.CaptchaStream" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getTAfterLoadingStream()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.setTAfterLoadingStream(AcbrConsultaSintegra.TAfterLoadingStream)" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.AfterLoadingStream" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getAfterExecute()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.setFAfterExecute(AcbrConsultaSintegra.TAfterExecute)" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.AfterExecute" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.ReadImageCaptcha()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getInscricaoEstadual()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.setInscricaoEstadual(System.string)" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.InscricaoEstadual" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getbairro()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getComplemento()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getEstado()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getMunicipio()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getNumero()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getCep()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getUf()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getFAtividade()" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getFRegime()" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Numero" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Complemento" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Bairro" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Estado" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Municipio" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Cep" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Uf" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.AtividadeEconomica" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Regime" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getFDataCredenciamento()" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.DataCredenciamento" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.getIndiceOrigatoriedade()" />
+      <reference referencedUin="delphi:e_property:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.Indice" />
+      <reference referencedUin="delphi:e_method:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.AtualizaCatpcha()" />
+      <reference referencedUin="delphi:l_ast:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.AfterLoadingStream">
+        <property name="sourceAnchor" value="640,74" />
+        <property name="targetAnchor" value="437,74" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:ConsultaSintegra:AcbrConsultaSintegra.iAcbrConsultaSintegra.AfterExecute">
+        <property name="sourceAnchor" value="640,28" />
+        <property name="targetAnchor" value="396,28" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="560,80,69,340" />
+      <property name="location_set_by_user" value="True" />
+      <property name="bounds_setted_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.AC" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.AL" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.AP" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.AM" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.BA" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.CE" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.DF" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.ES" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.GO" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.MA" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.MT" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.MS" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.MG" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.PA" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.PB" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.PR" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.PE" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.PI" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.RJ" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.RN" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.RS" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.RO" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.RR" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.SC" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.SP" />
+      <reference referencedUin="delphi:e_field:src:ConsultaSintegra:AcbrConsultaSintegra.TUFin.SE" />
+    </reference>
+  </view>
+</nodeSet>
